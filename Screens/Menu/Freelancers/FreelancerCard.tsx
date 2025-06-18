@@ -24,40 +24,42 @@ export default function FreelancerCard(props: FreelancerCardProps) {
     };
 
     return (
-        <View style={styles.card}>
-            <View style={styles.headerRow}>
-                <Image source={{ uri: props.image }} style={styles.avatar} />
-                <View style={{ flex: 1 }}>
-                    <View>
-                        <Text style={styles.name}>{props.name}</Text>
-                        <Text style={styles.role}>{props.role}</Text>
-                        <Text style={styles.location}>{props.location}</Text>
+        <>
+            <View style={styles.card}>
+                <View style={styles.headerRow}>
+                    <Image source={{ uri: props.image }} style={styles.avatar} />
+                    <View style={{ flex: 1 }}>
+                        <View>
+                            <Text style={styles.name}>{props.name}</Text>
+                            <Text style={styles.role}>{props.role}</Text>
+                            <Text style={styles.location}>{props.location}</Text>
 
+                        </View>
+                        <View style={styles.heartWrapper}>
+                            <TouchableOpacity onPress={toggleFavorite} style={{ alignContent: 'center', alignItems: 'center', }}>
+                                <HeartIcon isActive={isFavorited} size={28} />
+                            </TouchableOpacity>
+                        </View>
+
+                        <Text style={[styles.status, isVerified ? styles.verified : styles.unverified]}>
+                            {isVerified ? '✔ Verified' : '❌ Unverified'}
+                        </Text>
+
+                        <View style={styles.badgeRow}>
+                            <Text style={styles.price}>{props.price}</Text>
+                            {props.tag && <Text style={styles.tag}>⭐ {props.tag}</Text>}
+                            <Text style={styles.available}>{props.availability}</Text>
+                        </View>
+
+                        <Text style={styles.bio}>{props.bio}</Text>
                     </View>
-                    <View style={styles.heartWrapper}>
-                        <TouchableOpacity onPress={toggleFavorite} style={{ alignContent: 'center', alignItems: 'center', }}>
-                            <HeartIcon isActive={isFavorited} size={28} />
-                        </TouchableOpacity>
-                    </View>
-
-                    <Text style={[styles.status, isVerified ? styles.verified : styles.unverified]}>
-                        {isVerified ? '✔ Verified' : '❌ Unverified'}
-                    </Text>
-
-                    <View style={styles.badgeRow}>
-                        <Text style={styles.price}>{props.price}</Text>
-                        {props.tag && <Text style={styles.tag}>⭐ {props.tag}</Text>}
-                        <Text style={styles.available}>{props.availability}</Text>
-                    </View>
-
-                    <Text style={styles.bio}>{props.bio}</Text>
                 </View>
-            </View>
 
-            <TouchableOpacity style={styles.button}>
-                <Text style={styles.buttonText}>View Profile</Text>
-            </TouchableOpacity>
-        </View>
+                <TouchableOpacity style={styles.button}>
+                    <Text style={styles.buttonText}>View Profile</Text>
+                </TouchableOpacity>
+            </View>
+        </>
     );
 }
 

@@ -5,13 +5,15 @@ import freelancers from './freelancersData.json';
 
 export default function FreelancerScreen() {
     return (
-        <SafeAreaView style={{ flex: 1, backgroundColor: '#f3f3f3', paddingTop: 20 }}>
-            <FlatList
-                data={freelancers}
-                keyExtractor={(item) => item.id}
-                renderItem={({ item }) => <FreelancerCard {...item} />}
-                contentContainerStyle={{ paddingBottom: 20 }}
-            />
-        </SafeAreaView>
+        <>
+            <SafeAreaView style={{ flex: 1, backgroundColor: '#f3f3f3', paddingTop: 20 }}>
+                <FlatList
+                    data={freelancers}
+                    keyExtractor={(item) => item.id}
+                    renderItem={({ item }) => <FreelancerCard {...item} />}
+                    contentContainerStyle={{ paddingBottom: 20 }}
+                />
+            </SafeAreaView>
+        </>
     );
 }
