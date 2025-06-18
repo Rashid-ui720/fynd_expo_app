@@ -7,7 +7,7 @@ interface FreelancerCardProps {
     role: string;
     location: string;
     price: string;
-    status: 'Verified' | 'Unverified';
+    status: "Verified" | "Unverified";
     tag?: string;
     availability: string;
     bio: string;

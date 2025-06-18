@@ -10,7 +10,13 @@ export default function FreelancerScreen() {
                 <FlatList
                     data={freelancers}
                     keyExtractor={(item) => item.id}
-                    renderItem={({ item }) => <FreelancerCard {...item} />}
+                    renderItem={({ item }) => <FreelancerCard
+                        {...{
+                            ...item,
+                            status: item.status === 'Verified' ? 'Verified' : 'Unverified',
+                        }}
+                    />
+                    }
                     contentContainerStyle={{ paddingBottom: 20 }}
                 />
             </SafeAreaView>
