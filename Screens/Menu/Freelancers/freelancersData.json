@@ -1,0 +1,71 @@
+[
+    {
+        "id": "1",
+        "name": "Abdul Razaq",
+        "role": "Other",
+        "location": "Lahore",
+        "price": "Rs. 3000/hour",
+        "status": "Verified",
+        "tag": "Top Rated",
+        "availability": "Available Now",
+        "bio": "Working As a content creator and manager",
+        "image": "https://randomuser.me/api/portraits/men/1.jpg"
+    },
+    {
+        "id": "2",
+        "name": "Muhammad arif khan",
+        "role": "Content Writer",
+        "location": "Bagh",
+        "price": "Rs. 1000/Month",
+        "status": "Verified",
+        "availability": "Available Now",
+        "bio": "I am from army",
+        "image": "https://randomuser.me/api/portraits/men/2.jpg"
+    },
+    {
+        "id": "3",
+        "name": "tanveer Ahmad",
+        "role": "Student",
+        "location": "Sargodha",
+        "price": "Rs. 20000/hour",
+        "status": "Unverified",
+        "availability": "Available Now",
+        "bio": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+        "image": "https://randomuser.me/api/portraits/men/3.jpg"
+    },
+    {
+        "id": "4",
+        "name": "Alyan Hassan",
+        "role": "Video Editor",
+        "location": "Karachi Pakistan",
+        "price": "Rs. 1000/hour",
+        "status": "Unverified",
+        "tag": "Top Rated",
+        "availability": "Available Now",
+        "bio": "I'm Student",
+        "image": "https://randomuser.me/api/portraits/men/4.jpg"
+    },
+    {
+        "id": "5",
+        "name": "Aqib haraj",
+        "role": "Video Editor",
+        "location": "Vehari",
+        "price": "Rs. 15000/Month",
+        "status": "Unverified",
+        "availability": "Available Now",
+        "bio": "Please like my all video i will back Lorem Ipsum is simply dummy text of the printing and typesetting industry. Please like my all video i will back Lorem Ipsum is simply dummy text of the printing and type to the view setting industry.",
+        "image": "https://randomuser.me/api/portraits/men/5.jpg"
+    },
+    {
+        "id": "6",
+        "name": "Dr Zunain",
+        "role": "Physiotherapist",
+        "location": "Gujranwala",
+        "price": "Rs. 1000/hour",
+        "status": "Verified",
+        "tag": "High Rated",
+        "availability": "Available Now",
+        "bio": "I'm a physiotherapist doctor i will manage pain like osteoarthritis, rheumatoid arthritis, all types of neck and shoulder pain, frozen shoulder...",
+        "image": "https://randomuser.me/api/portraits/men/6.jpg"
+    }
+]
