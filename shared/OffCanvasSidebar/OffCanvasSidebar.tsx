@@ -4,12 +4,11 @@ import React, { useEffect, useRef } from 'react';
 import {
     Animated,
     Dimensions,
-    Image,
     Pressable,
     ScrollView,
     StyleSheet,
     Text,
-    View,
+    View
 } from 'react-native';
 import { GestureHandlerRootView } from 'react-native-gesture-handler';
 
@@ -54,25 +53,8 @@ export const OffCanvasSidebar = ({ onClose }: Props) => {
                 ]}
             >
 
-                {/* Close Button */}
-                <Pressable style={styles.closeButton} onPress={hideSidebar}>
-                    <Text style={styles.closeButtonText}>×</Text>
-                </Pressable>
-
                 {/* Scrollable Content */}
                 <ScrollView contentContainerStyle={styles.scrollContent} showsVerticalScrollIndicator={true}>
-                    <View style={styles.headerContent}>
-                        {/* Sidebar Header */}
-                        <View style={styles.sidebarHeader}>
-                            <Image
-                                source={{
-                                    uri: 'https://randomuser.me/api/portraits/men/1.jpg ',
-                                }}
-                                style={styles.sidebarProfileImage}
-                            />
-                            <Text style={styles.sidebarAppName}>FyndFeed</Text>
-                        </View>
-                    </View>
 
                     {/* Menu Section */}
                     <View style={styles.menuContainer}>
@@ -261,38 +243,6 @@ const styles = StyleSheet.create({
     scrollContent: {
         flexGrow: 1,
         justifyContent: 'space-between',
-    },
-    closeButton: {
-        alignSelf: 'flex-end',
-    },
-    closeButtonText: {
-        fontSize: 24,
-        fontWeight: 'bold',
-        color: '#333',
-    },
-    headerContent: {
-        flexGrow: 1,
-        justifyContent: 'space-between',
-    },
-    sidebarHeader: {
-        flexDirection: 'row',
-        alignItems: 'center',
-        paddingVertical: 16,
-        paddingHorizontal: 10,
-        borderBottomWidth: 1,
-        borderBottomColor: '#ddd',
-        marginBottom: 20,
-    },
-    sidebarProfileImage: {
-        width: 40,
-        height: 40,
-        borderRadius: 20,
-        marginRight: 12,
-    },
-    sidebarAppName: {
-        fontSize: 18,
-        fontWeight: 'bold',
-        color: '#333',
     },
     menuContainer: {
         marginTop: 20,

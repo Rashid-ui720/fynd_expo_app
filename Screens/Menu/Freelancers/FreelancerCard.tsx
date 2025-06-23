@@ -51,7 +51,7 @@ export default function FreelancerCard(props: FreelancerCardProps) {
                             <Text style={styles.available}>{props.availability}</Text>
                         </View>
 
-                        <Text style={styles.bio}>{props.bio}</Text>
+                        <Text style={styles.bio} numberOfLines={2}>{props.bio}</Text>
                     </View>
                 </View>
 
