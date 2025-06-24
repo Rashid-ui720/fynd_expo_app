@@ -1,0 +1,74 @@
+[
+    {
+        "id": "1",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/1.jpg",
+        "timestamp": "1 year ago",
+        "mediaType": "video",
+        "mediaUrl": "https://www.w3schools.com/html/mov_bbb.mp4",
+        "caption": "I asked ChatGPT and this was the response!",
+        "likes": 9,
+        "shares": 27,
+        "views": 8
+    },
+    {
+        "id": "2",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/2.jpg",
+        "timestamp": "1 year ago",
+        "mediaType": "video",
+        "mediaUrl": "https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4",
+        "caption": "A scenic reel with vintage textures.",
+        "likes": 5,
+        "shares": 19,
+        "views": 19
+    },
+    {
+        "id": "3",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/3.jpg",
+        "timestamp": "2 years ago",
+        "mediaType": "video",
+        "mediaUrl": "https://www.w3schools.com/html/movie.mp4",
+        "caption": "30 Coins Per Post ???? Or Ab Scene Bhi On Hain Amazing ??",
+        "likes": 3,
+        "shares": 15,
+        "views": 17
+    },
+    {
+        "id": "4",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/4.jpg",
+        "timestamp": "2 years ago",
+        "mediaType": "text",
+        "mediaUrl": "",
+        "caption": "Akhir Update Aa Hi Gaee Fynd 3.5 Nicee",
+        "likes": 2,
+        "shares": 12,
+        "views": 11
+    },
+    {
+        "id": "5",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/5.jpg",
+        "timestamp": "2 years ago",
+        "mediaType": "video",
+        "mediaUrl": "https://www.w3schools.com/html/movie.mp4",
+        "caption": "Two different stories?",
+        "likes": 8,
+        "shares": 21,
+        "views": 19
+    },
+    {
+        "id": "6",
+        "username": "Abdul Razaq",
+        "userImage": "https://randomuser.me/api/portraits/men/6.jpg",
+        "timestamp": "2 years ago",
+        "mediaType": "link",
+        "mediaUrl": "https://techpowerup.com",
+        "caption": "AI On Windows? Windows 12 coming soon with ARM support!",
+        "likes": 1,
+        "shares": 18,
+        "views": 22
+    }
+]
